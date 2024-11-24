@@ -1,27 +1,27 @@
-## Проект общих задач
+## The project "Joint tasks"
 
-### Реализован функционал:
+### Implemented functionality:
 
-- Отображение списка задач с их описанием и статусами;
-- Возможность создания, удаления и редактирования задач;
-- Авторизация;
-- Любой пользователь может посмотреть смотреть список открытых задач;
-- Авторизованный пользователь может создавать и смотреть все задачи;
-- Редактировать можно только свои задачи;
+- Display a list of tasks with their description and statuses;
+- Ability to create, delete and edit tasks;
+- Authorization;
+- Any user can view the list of open tasks;
+- An authorized user can create and view all tasks;
+- You can only edit your own tasks;
 
-Авторизация с использованием JWT.
+Authorization using JWT.
 
-### Установка зависимостей и сборка проекта
+### Instalation
 
 ```bash
 npm install
 npm run build
 ```
 
-### Запуск
+### Launch
 
 ```bash
-# Перед запуском проекта установить перменную окружения
+# Set the environment variable before starting the project
 export JWT_SECRET=<secret string>
 
 cd backend
