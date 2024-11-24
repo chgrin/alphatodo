@@ -11,7 +11,7 @@
 
 Authorization using JWT.
 
-### Instalation
+### Installation
 
 ```bash
 npm install
